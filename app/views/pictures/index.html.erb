@@ -1,0 +1,7 @@
+<h1>Gallery</h1>
+
+<% @pics.each do |i| %>
+
+  <p><%= link_to i.title, picture_path(i) %></p>
+  
+<% end %>
