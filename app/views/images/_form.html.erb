@@ -10,7 +10,15 @@
       </ul>
     </div>
   <% end %>
+  
+ 
 
+<% @categories.each do |category| %>
+  <%= select(:category_id,options_for_select("#{@category.id}"))%>
+<% end %>
+
+
+  
   <div class="field">
     <%= f.label :title %><br />
     <%= f.text_field :title %>

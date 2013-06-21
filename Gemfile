@@ -36,3 +36,6 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+#Bootstrap CSS
+gem 'bootstrap-sass', '2.1'
