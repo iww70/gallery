@@ -1,0 +1,27 @@
+<h1>Listing selects</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>On</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @selects.each do |select| %>
+  <tr>
+    <td><%= select.title %></td>
+    <td><%= select.description %></td>
+    <td><%= select.on %></td>
+    <td><%= link_to 'Show', select %></td>
+    <td><%= link_to 'Edit', edit_select_path(select) %></td>
+    <td><%= link_to 'Destroy', select, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Select', new_select_path %>

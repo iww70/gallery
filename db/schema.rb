@@ -25,15 +25,12 @@ ActiveRecord::Schema.define(:version => 20130621053921) do
     t.text     "description"
     t.string   "image_url"
     t.integer  "category_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
-  end
-
-  create_table "pictures", :force => true do |t|
-    t.string   "title"
-    t.text     "description"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.string   "data_file_name"
+    t.string   "data_content_type"
+    t.integer  "data_file_size"
+    t.datetime "data_updated_at"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
   end
 
 end

@@ -38,4 +38,6 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 #Bootstrap CSS
-gem 'bootstrap-sass', '2.1'
+#gem 'bootstrap-sass', '2.1'
+
+gem "paperclip", "~> 3.0"

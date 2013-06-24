@@ -1,8 +1,10 @@
+# coding: utf-8
 class ImagesController < ApplicationController
   # GET /images
   # GET /images.json
   def index
     @images = Image.all
+    
     
     respond_to do |format|
       format.html # index.html.erb
@@ -27,24 +29,22 @@ class ImagesController < ApplicationController
   # GET /images/new.json
   def new
     @image = Image.new
-    @categories = Category.all(params[:category])
-    p "++++"
-    p @categories.inspect
-    p "++++"
+    @category_array = Category.all
+    
+    p "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+    p @category_array.inspect
+    p "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
     
     respond_to do |format|
       format.html # new.html.erb
-      format.json { render json: @image }
+      format.json { render json: @image}
     end
-    
-
-    
   end
 
   # GET /images/1/edit
   def edit
     @image = Image.find(params[:id])
-     @categories = Category.all(params[:category])
+    @category_array = Category.all
   end
 
   # POST /images

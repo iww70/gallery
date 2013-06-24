@@ -1,3 +1,4 @@
+# encoding: utf-8
 <%= form_for(@image) do |f| %>
   <% if @image.errors.any? %>
     <div id="error_explanation">
@@ -10,14 +11,10 @@
       </ul>
     </div>
   <% end %>
-  
- 
-
-<% @categories.each do |category| %>
-  <%= select(:category_id,options_for_select("#{@category.id}"))%>
-<% end %>
-
-
+  <div class="field">
+    <% categories_array = @category_array.map { |category| [category.title, category.id] } %>
+    <%= f.select(:category_id, options_for_select(categories_array)) %>
+  </div>
   
   <div class="field">
     <%= f.label :title %><br />
@@ -29,7 +26,7 @@
   </div>
   <div class="field">
     <%= f.label :image_url %><br />
-    <%= f.text_field :image_url %>
+    <%= f.file_field :data %>
   </div>
   <div class="actions">
     <%= f.submit %>
