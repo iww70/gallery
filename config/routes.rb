@@ -1,9 +1,12 @@
 Gallery::Application.routes.draw do
-  resources :selects
+  resources :lists
+
 
   resources :images
 
+
   resources :categories
+
 
   # root :to => "welcome#index"
 end

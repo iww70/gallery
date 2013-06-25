@@ -1,0 +1,15 @@
+<% @images.each do |image| %>
+  <tr>
+    <td><%= image_tag image.data.url(:thumb) %></td>
+    <td><%= image.title %></td>
+    <td><%= image.description %></td>
+    <td>
+      <% if @category_array.map { |category| [category.id = image.category_id] } %>
+        <%= link_to("#{image.category.title}", lists_path(:category_id => image.category_id)) %>
+      <% end %>
+    </td>
+    <td><%= link_to 'Show', image %></td>
+    <td><%= link_to 'Edit', edit_image_path(image) %></td>
+    <td><%= link_to 'Destroy', image, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>

@@ -2,7 +2,9 @@
 <%= form_for(@image) do |f| %>
   <% if @image.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@image.errors.count, "error") %> prohibited this image from being saved:</h2>
+      <h2>
+        <%= pluralize(@image.errors.count, "error") %> prohibited this image from being saved:
+      </h2>
 
       <ul>
       <% @image.errors.full_messages.each do |msg| %>
@@ -11,23 +13,28 @@
       </ul>
     </div>
   <% end %>
+
   <div class="field">
-    <% categories_array = @category_array.collect { |category| [category.title, category.id] } %>
-    <%= f.select(:category_id, options_for_select(categories_array)) %>
+    <% categories_array = @category_array.map { |category| [category.title, category.id] } %>
+    <%= f.select(:category_id, options_for_select(categories_array, @image.category_id)) %>
   </div>
-  
+
   <div class="field">
     <%= f.label :title %><br />
     <%= f.text_field :title %>
   </div>
+
   <div class="field">
     <%= f.label :description %><br />
     <%= f.text_area :description %>
   </div>
+
   <div class="field">
+    <%= image_tag @image.data.url(:thumb) if @image.data_present?%>
     <%= f.label :image_url %><br />
     <%= f.file_field :data %>
   </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>
