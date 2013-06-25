@@ -18,6 +18,10 @@ class ImagesController < ApplicationController
   # GET /images/1.json
   def show
     @image = Image.find(params[:id])
+    
+    p "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+    p @image.inspect
+    p "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"    
 
     respond_to do |format|
       format.html # show.html.erb
@@ -51,6 +55,7 @@ class ImagesController < ApplicationController
   # POST /images.json
   def create
     @image = Image.new(params[:image])
+    @category_array = Category.all
 
     respond_to do |format|
       if @image.save

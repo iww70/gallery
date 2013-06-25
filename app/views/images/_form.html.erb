@@ -12,7 +12,7 @@
     </div>
   <% end %>
   <div class="field">
-    <% categories_array = @category_array.map { |category| [category.title, category.id] } %>
+    <% categories_array = @category_array.collect { |category| [category.title, category.id] } %>
     <%= f.select(:category_id, options_for_select(categories_array)) %>
   </div>
   

@@ -23,7 +23,6 @@ ActiveRecord::Schema.define(:version => 20130621053921) do
   create_table "images", :force => true do |t|
     t.string   "title"
     t.text     "description"
-    t.string   "image_url"
     t.integer  "category_id"
     t.string   "data_file_name"
     t.string   "data_content_type"

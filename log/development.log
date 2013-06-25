@@ -33689,3 +33689,1831 @@ ActionView::Template::Error (undefined method `map' for nil:NilClass):
   Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
   Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
   Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-24 19:09:43 +0700
+Processing by ImagesController#index as HTML
+  [1m[36mImage Load (0.3ms)[0m  [1mSELECT "images".* FROM "images" [0m
+  Rendered images/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 44ms (Views: 41.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-24 19:09:43 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-06-24 19:09:43 +0700
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-06-24 19:09:43 +0700
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.css?body=1" for 127.0.0.1 at 2013-06-24 19:09:43 +0700
+Served asset /images.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-06-24 19:09:43 +0700
+Served asset /pictures.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.css?body=1" for 127.0.0.1 at 2013-06-24 19:09:43 +0700
+Served asset /selects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-24 19:09:43 +0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-24 19:09:43 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.js?body=1" for 127.0.0.1 at 2013-06-24 19:09:43 +0700
+Served asset /images.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-06-24 19:09:43 +0700
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-24 19:09:43 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-06-24 19:09:43 +0700
+Served asset /pictures.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.js?body=1" for 127.0.0.1 at 2013-06-24 19:09:43 +0700
+Served asset /selects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-24 19:09:43 +0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/images/new" for 127.0.0.1 at 2013-06-24 19:09:45 +0700
+Processing by ImagesController#new as HTML
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" 
+  Rendered images/_form.html.erb (5.0ms)
+  Rendered images/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 40ms (Views: 35.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-06-24 19:09:46 +0700
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-24 19:09:46 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-24 19:09:46 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-06-24 19:09:46 +0700
+Served asset /pictures.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.css?body=1" for 127.0.0.1 at 2013-06-24 19:09:46 +0700
+Served asset /images.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-24 19:09:46 +0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-06-24 19:09:46 +0700
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.css?body=1" for 127.0.0.1 at 2013-06-24 19:09:46 +0700
+Served asset /selects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-24 19:09:46 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-06-24 19:09:46 +0700
+Served asset /pictures.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-06-24 19:09:46 +0700
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.js?body=1" for 127.0.0.1 at 2013-06-24 19:09:46 +0700
+Served asset /images.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-24 19:09:46 +0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/selects.js?body=1" for 127.0.0.1 at 2013-06-24 19:09:46 +0700
+Served asset /selects.js - 304 Not Modified (0ms)
+
+
+Started GET "/images/new" for 127.0.0.1 at 2013-06-25 12:11:20 +0700
+Processing by ImagesController#new as HTML
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  Rendered images/_form.html.erb (4.4ms)
+  Rendered images/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 63ms (Views: 60.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:20 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:20 +0700
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:20 +0700
+Served asset /pictures.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:20 +0700
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:20 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:20 +0700
+Served asset /selects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:20 +0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/images.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:20 +0700
+Served asset /images.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:20 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:20 +0700
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:20 +0700
+Served asset /pictures.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:20 +0700
+Served asset /images.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:20 +0700
+Served asset /selects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:20 +0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:11:25 +0700
+Processing by ImagesController#index as HTML
+  [1m[35mImage Load (0.3ms)[0m  SELECT "images".* FROM "images" 
+  Rendered images/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 61ms (Views: 59.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:25 +0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:25 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:25 +0700
+Served asset /categories.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:25 +0700
+Served asset /pictures.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:25 +0700
+Served asset /images.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:25 +0700
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:25 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:25 +0700
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:25 +0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/images.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:25 +0700
+Served asset /images.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:25 +0700
+Served asset /selects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:25 +0700
+Served asset /pictures.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:25 +0700
+Served asset /selects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:25 +0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/images/new" for 127.0.0.1 at 2013-06-25 12:11:27 +0700
+Processing by ImagesController#new as HTML
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  Rendered images/_form.html.erb (4.2ms)
+  Rendered images/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 62ms (Views: 59.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:27 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:27 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:27 +0700
+Served asset /pictures.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:27 +0700
+Served asset /images.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:27 +0700
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:27 +0700
+Served asset /selects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-06-25 12:11:27 +0700
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:27 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:27 +0700
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:27 +0700
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:27 +0700
+Served asset /pictures.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:27 +0700
+Served asset /images.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:27 +0700
+Served asset /selects.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-25 12:11:27 +0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/images" for 127.0.0.1 at 2013-06-25 12:11:47 +0700
+Processing by ImagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Kx8R7LSvT3pMramV/Sf+kqst3ft8EhGX4rKSSYqiXCc=", "image"=>{"category_id"=>"1", "title"=>"Cat", "description"=>"Good cat", "data"=>#<ActionDispatch::Http::UploadedFile:0x007f2a305899c0 @original_filename="1234287818_cat_20.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image[data]\"; filename=\"1234287818_cat_20.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20130625-18388-vkrxaa>>}, "commit"=>"Create Image"}
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/1234287818_cat_2020130625-18388-1jrrd1z.jpg[0]'
+[paperclip] An error was received while processing: #<Paperclip::Errors::CommandNotFoundError: Could not run the `identify` command. Please install ImageMagick.>
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/1234287818_cat_2020130625-18388-1jrrd1z.jpg[0]'
+[paperclip] An error was received while processing: #<Paperclip::Errors::CommandNotFoundError: Could not run the `identify` command. Please install ImageMagick.>
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered images/_form.html.erb (7.3ms)
+  Rendered images/new.html.erb within layouts/application (8.3ms)
+Completed 500 Internal Server Error in 48ms
+
+ActionView::Template::Error (undefined method `map' for nil:NilClass):
+    12:     </div>
+    13:   <% end %>
+    14:   <div class="field">
+    15:     <% categories_array = @category_array.map { |category| [category.title, category.id] } %>
+    16:     <%= f.select(:category_id, options_for_select(categories_array)) %>
+    17:   </div>
+    18:   
+  app/views/images/_form.html.erb:15:in `block in _app_views_images__form_html_erb__231268187086601265_69909791032360'
+  app/views/images/_form.html.erb:2:in `_app_views_images__form_html_erb__231268187086601265_69909791032360'
+  app/views/images/new.html.erb:3:in `_app_views_images_new_html_erb___1873540377880294135_69909791910040'
+  app/controllers/images_controller.rb:60:in `block (2 levels) in create'
+  app/controllers/images_controller.rb:55:in `create'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.0ms)
+
+
+Started POST "/images" for 127.0.0.1 at 2013-06-25 12:12:57 +0700
+Processing by ImagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Kx8R7LSvT3pMramV/Sf+kqst3ft8EhGX4rKSSYqiXCc=", "image"=>{"category_id"=>"1", "title"=>"Cat", "description"=>"Good cat", "data"=>#<ActionDispatch::Http::UploadedFile:0x007f2a48412660 @original_filename="1234287818_cat_20.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image[data]\"; filename=\"1234287818_cat_20.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20130625-18388-idwbpl>>}, "commit"=>"Create Image"}
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/1234287818_cat_2020130625-18388-g3spn2.jpg[0]'
+[paperclip] An error was received while processing: #<Paperclip::Errors::CommandNotFoundError: Could not run the `identify` command. Please install ImageMagick.>
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/1234287818_cat_2020130625-18388-g3spn2.jpg[0]'
+[paperclip] An error was received while processing: #<Paperclip::Errors::CommandNotFoundError: Could not run the `identify` command. Please install ImageMagick.>
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered images/_form.html.erb (8.3ms)
+  Rendered images/new.html.erb within layouts/application (9.4ms)
+Completed 500 Internal Server Error in 77ms
+
+ActionView::Template::Error (undefined method `map' for nil:NilClass):
+    12:     </div>
+    13:   <% end %>
+    14:   <div class="field">
+    15:     <% categories_array = @category_array.map { |category| [category.title, category.id] } %>
+    16:     <%= f.select(:category_id, options_for_select(categories_array)) %>
+    17:   </div>
+    18:   
+  app/views/images/_form.html.erb:15:in `block in _app_views_images__form_html_erb__231268187086601265_69909791032360'
+  app/views/images/_form.html.erb:2:in `_app_views_images__form_html_erb__231268187086601265_69909791032360'
+  app/views/images/new.html.erb:3:in `_app_views_images_new_html_erb___1873540377880294135_69909791910040'
+  app/controllers/images_controller.rb:60:in `block (2 levels) in create'
+  app/controllers/images_controller.rb:55:in `create'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.8ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateImages (20130621053921)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mDROP TABLE "images"[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20130621053921'
+  [1m[36m (175.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.5ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateCategories (20130620115451)
+Migrating to CreateImages (20130621053921)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "images" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "category_id" integer, "data_file_name" varchar(255), "data_content_type" varchar(255), "data_file_size" integer, "data_updated_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130621053921')[0m
+  [1m[35m (182.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:16:26 +0700
+Processing by ImagesController#index as HTML
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" [0m
+  Rendered images/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 178ms (Views: 133.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-25 12:16:26 +0700
+Served asset /application.css - 304 Not Modified (66ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-06-25 12:16:26 +0700
+Served asset /categories.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-06-25 12:16:26 +0700
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/images.css?body=1" for 127.0.0.1 at 2013-06-25 12:16:26 +0700
+Served asset /images.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-06-25 12:16:26 +0700
+Served asset /pictures.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-25 12:16:26 +0700
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/selects.css?body=1" for 127.0.0.1 at 2013-06-25 12:16:26 +0700
+Served asset /selects.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-25 12:16:26 +0700
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-25 12:16:26 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-06-25 12:16:26 +0700
+Served asset /categories.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/images.js?body=1" for 127.0.0.1 at 2013-06-25 12:16:26 +0700
+Served asset /images.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-06-25 12:16:26 +0700
+Served asset /pictures.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/selects.js?body=1" for 127.0.0.1 at 2013-06-25 12:16:26 +0700
+Served asset /selects.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-25 12:16:26 +0700
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/images/new" for 127.0.0.1 at 2013-06-25 12:16:28 +0700
+Processing by ImagesController#new as HTML
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" 
+  Rendered images/_form.html.erb (18.3ms)
+  Rendered images/new.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 138ms (Views: 89.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-25 12:16:28 +0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-25 12:16:28 +0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/images.css?body=1" for 127.0.0.1 at 2013-06-25 12:16:28 +0700
+Served asset /images.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-06-25 12:16:28 +0700
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-06-25 12:16:28 +0700
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-06-25 12:16:28 +0700
+Served asset /pictures.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.css?body=1" for 127.0.0.1 at 2013-06-25 12:16:28 +0700
+Served asset /selects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-06-25 12:16:28 +0700
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-25 12:16:28 +0700
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/selects.js?body=1" for 127.0.0.1 at 2013-06-25 12:16:28 +0700
+Served asset /selects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.js?body=1" for 127.0.0.1 at 2013-06-25 12:16:28 +0700
+Served asset /images.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-25 12:16:28 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-06-25 12:16:28 +0700
+Served asset /pictures.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-25 12:16:28 +0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/images" for 127.0.0.1 at 2013-06-25 12:16:55 +0700
+Processing by ImagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Kx8R7LSvT3pMramV/Sf+kqst3ft8EhGX4rKSSYqiXCc=", "image"=>{"category_id"=>"1", "title"=>"Cat", "description"=>"Good cat ", "data"=>#<ActionDispatch::Http::UploadedFile:0x007f64b038f7e0 @original_filename="1234287818_cat_20.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image[data]\"; filename=\"1234287818_cat_20.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20130625-19282-1v9h6p5>>}, "commit"=>"Create Image"}
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/1234287818_cat_2020130625-19282-rkbw73.jpg[0]'
+[paperclip] An error was received while processing: #<Paperclip::Errors::CommandNotFoundError: Could not run the `identify` command. Please install ImageMagick.>
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/1234287818_cat_2020130625-19282-rkbw73.jpg[0]'
+[paperclip] An error was received while processing: #<Paperclip::Errors::CommandNotFoundError: Could not run the `identify` command. Please install ImageMagick.>
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered images/_form.html.erb (59.5ms)
+  Rendered images/new.html.erb within layouts/application (60.5ms)
+Completed 500 Internal Server Error in 98ms
+
+ActionView::Template::Error (undefined method `map' for nil:NilClass):
+    12:     </div>
+    13:   <% end %>
+    14:   <div class="field">
+    15:     <% categories_array = @category_array.map { |category| [category.title, category.id] } %>
+    16:     <%= f.select(:category_id, options_for_select(categories_array)) %>
+    17:   </div>
+    18:   
+  app/views/images/_form.html.erb:15:in `block in _app_views_images__form_html_erb___3606074358815515355_70035218692240'
+  app/views/images/_form.html.erb:2:in `_app_views_images__form_html_erb___3606074358815515355_70035218692240'
+  app/views/images/new.html.erb:3:in `_app_views_images_new_html_erb__2820007022817124447_70035215043000'
+  app/controllers/images_controller.rb:60:in `block (2 levels) in create'
+  app/controllers/images_controller.rb:55:in `create'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.1ms)
+
+
+Started POST "/images" for 127.0.0.1 at 2013-06-25 12:21:31 +0700
+Processing by ImagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Kx8R7LSvT3pMramV/Sf+kqst3ft8EhGX4rKSSYqiXCc=", "image"=>{"category_id"=>"1", "title"=>"Cat", "description"=>"Good cat ", "data"=>#<ActionDispatch::Http::UploadedFile:0x007f64b02798b0 @original_filename="1234287818_cat_20.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image[data]\"; filename=\"1234287818_cat_20.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20130625-19282-1jgyvad>>}, "commit"=>"Create Image"}
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/1234287818_cat_2020130625-19282-7fswlu.jpg[0]'
+[paperclip] An error was received while processing: #<Paperclip::Errors::CommandNotFoundError: Could not run the `identify` command. Please install ImageMagick.>
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/1234287818_cat_2020130625-19282-7fswlu.jpg[0]'
+[paperclip] An error was received while processing: #<Paperclip::Errors::CommandNotFoundError: Could not run the `identify` command. Please install ImageMagick.>
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered images/_form.html.erb (3.8ms)
+  Rendered images/new.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (undefined method `collect' for nil:NilClass):
+    12:     </div>
+    13:   <% end %>
+    14:   <div class="field">
+    15:     <% categories_array = @category_array.collect { |category| [category.title, category.id] } %>
+    16:     <%= f.select(:category_id, options_for_select(categories_array)) %>
+    17:   </div>
+    18:   
+  app/views/images/_form.html.erb:15:in `block in _app_views_images__form_html_erb___3606074358815515355_70035218875320'
+  app/views/images/_form.html.erb:2:in `_app_views_images__form_html_erb___3606074358815515355_70035218875320'
+  app/views/images/new.html.erb:3:in `_app_views_images_new_html_erb__2820007022817124447_70035215043000'
+  app/controllers/images_controller.rb:60:in `block (2 levels) in create'
+  app/controllers/images_controller.rb:55:in `create'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.2ms)
+
+
+Started POST "/images" for 127.0.0.1 at 2013-06-25 12:22:24 +0700
+Processing by ImagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Kx8R7LSvT3pMramV/Sf+kqst3ft8EhGX4rKSSYqiXCc=", "image"=>{"category_id"=>"1", "title"=>"Cat", "description"=>"Good cat ", "data"=>#<ActionDispatch::Http::UploadedFile:0x007f64b0cc2330 @original_filename="1234287818_cat_20.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image[data]\"; filename=\"1234287818_cat_20.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20130625-19282-1ccgcs9>>}, "commit"=>"Create Image"}
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/1234287818_cat_2020130625-19282-gs8af7.jpg[0]'
+[paperclip] An error was received while processing: #<Paperclip::Errors::CommandNotFoundError: Could not run the `identify` command. Please install ImageMagick.>
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/1234287818_cat_2020130625-19282-gs8af7.jpg[0]'
+[paperclip] An error was received while processing: #<Paperclip::Errors::CommandNotFoundError: Could not run the `identify` command. Please install ImageMagick.>
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered images/_form.html.erb (5.2ms)
+  Rendered images/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 117ms (Views: 31.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-25 12:22:24 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-25 12:22:24 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-06-25 12:22:24 +0700
+Served asset /pictures.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.css?body=1" for 127.0.0.1 at 2013-06-25 12:22:24 +0700
+Served asset /images.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-06-25 12:22:24 +0700
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-06-25 12:22:24 +0700
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.css?body=1" for 127.0.0.1 at 2013-06-25 12:22:24 +0700
+Served asset /selects.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-25 12:22:24 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-06-25 12:22:24 +0700
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-25 12:22:24 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-06-25 12:22:24 +0700
+Served asset /pictures.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.js?body=1" for 127.0.0.1 at 2013-06-25 12:22:24 +0700
+Served asset /images.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.js?body=1" for 127.0.0.1 at 2013-06-25 12:22:24 +0700
+Served asset /selects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-25 12:22:24 +0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/images" for 127.0.0.1 at 2013-06-25 12:27:40 +0700
+Processing by ImagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Kx8R7LSvT3pMramV/Sf+kqst3ft8EhGX4rKSSYqiXCc=", "image"=>{"category_id"=>"1", "title"=>"Cat", "description"=>"Good cat ", "data"=>#<ActionDispatch::Http::UploadedFile:0x007f64985e0480 @original_filename="1234287818_cat_20.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image[data]\"; filename=\"1234287818_cat_20.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20130625-19282-7ed5mt>>}, "commit"=>"Create Image"}
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/1234287818_cat_2020130625-19282-1vssu8e.jpg[0]'
+Command :: identify -format %m '/tmp/1234287818_cat_2020130625-19282-1vssu8e.jpg[0]'
+Command :: identify -format %m '/tmp/1234287818_cat_2020130625-19282-1vssu8e.jpg[0]'
+Command :: identify -format %m '/tmp/1234287818_cat_2020130625-19282-1vssu8e.jpg[0]'
+Command :: convert '/tmp/1234287818_cat_2020130625-19282-1vssu8e.jpg[0]' -auto-orient -resize "300x300>" '/tmp/1234287818_cat_2020130625-19282-1vssu8e20130625-19282-pe9pcm'
+Command :: file -b --mime '/tmp/1234287818_cat_2020130625-19282-1vssu8e20130625-19282-pe9pcm'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/1234287818_cat_2020130625-19282-1vssu8e.jpg[0]'
+Command :: identify -format %m '/tmp/1234287818_cat_2020130625-19282-1vssu8e.jpg[0]'
+Command :: identify -format %m '/tmp/1234287818_cat_2020130625-19282-1vssu8e.jpg[0]'
+Command :: identify -format %m '/tmp/1234287818_cat_2020130625-19282-1vssu8e.jpg[0]'
+Command :: convert '/tmp/1234287818_cat_2020130625-19282-1vssu8e.jpg[0]' -auto-orient -resize "100x100>" '/tmp/1234287818_cat_2020130625-19282-1vssu8e20130625-19282-40lfmr'
+Command :: file -b --mime '/tmp/1234287818_cat_2020130625-19282-1vssu8e20130625-19282-40lfmr'
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" 
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Binary data inserted for `string` type on column `data_content_type`
+  [1m[35mSQL (6.0ms)[0m  INSERT INTO "images" ("category_id", "created_at", "data_content_type", "data_file_name", "data_file_size", "data_updated_at", "description", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["category_id", 1], ["created_at", Tue, 25 Jun 2013 05:27:41 UTC +00:00], ["data_content_type", "image/jpeg"], ["data_file_name", "1234287818_cat_20.jpg"], ["data_file_size", 48858], ["data_updated_at", Tue, 25 Jun 2013 05:27:40 UTC +00:00], ["description", "Good cat "], ["title", "Cat"], ["updated_at", Tue, 25 Jun 2013 05:27:41 UTC +00:00]]
+[paperclip] Saving attachments.
+  [1m[36m (171.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/images/1
+Completed 302 Found in 588ms (ActiveRecord: 177.5ms)
+
+
+Started GET "/images/1" for 127.0.0.1 at 2013-06-25 12:27:41 +0700
+Processing by ImagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mImage Load (0.3ms)[0m  SELECT "images".* FROM "images" WHERE "images"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered images/show.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `image_url' for #<Image:0x007f64b030eb40>):
+    12: 
+    13: <p>
+    14:   <b>Image url:</b>
+    15:   <%= @image.image_url %>
+    16: </p>
+    17: 
+    18: 
+  app/views/images/show.html.erb:15:in `_app_views_images_show_html_erb__254274379082908725_70035214737000'
+  app/controllers/images_controller.rb:22:in `show'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (38.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (47.1ms)
+
+
+Started GET "/images/1" for 127.0.0.1 at 2013-06-25 12:29:05 +0700
+Processing by ImagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered images/show.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `image_url' for #<Image:0x000000028433f0>):
+    12: 
+    13: <p>
+    14:   <b>Image url:</b>
+    15:   <%= @image.image_url %>
+    16:   <%= image_tag @image.data.url %>
+    17: </p>
+    18: 
+  app/views/images/show.html.erb:15:in `_app_views_images_show_html_erb__254274379082908725_22469480'
+  app/controllers/images_controller.rb:22:in `show'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.0ms)
+
+
+Started GET "/images/1" for 127.0.0.1 at 2013-06-25 12:29:22 +0700
+Processing by ImagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered images/show.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 63ms (Views: 60.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-25 12:29:23 +0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-06-25 12:29:23 +0700
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-06-25 12:29:23 +0700
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.css?body=1" for 127.0.0.1 at 2013-06-25 12:29:23 +0700
+Served asset /images.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-06-25 12:29:23 +0700
+Served asset /pictures.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-25 12:29:23 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.css?body=1" for 127.0.0.1 at 2013-06-25 12:29:23 +0700
+Served asset /selects.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-25 12:29:23 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-06-25 12:29:23 +0700
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-25 12:29:23 +0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/images.js?body=1" for 127.0.0.1 at 2013-06-25 12:29:23 +0700
+Served asset /images.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-06-25 12:29:23 +0700
+Served asset /pictures.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.js?body=1" for 127.0.0.1 at 2013-06-25 12:29:23 +0700
+Served asset /selects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-25 12:29:23 +0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/images/1" for 127.0.0.1 at 2013-06-25 12:30:10 +0700
+Processing by ImagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered images/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 46ms (Views: 44.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-25 12:30:10 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-06-25 12:30:10 +0700
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-06-25 12:30:10 +0700
+Served asset /pictures.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-06-25 12:30:10 +0700
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-25 12:30:10 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.css?body=1" for 127.0.0.1 at 2013-06-25 12:30:10 +0700
+Served asset /images.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.css?body=1" for 127.0.0.1 at 2013-06-25 12:30:10 +0700
+Served asset /selects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-25 12:30:10 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-25 12:30:10 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-06-25 12:30:10 +0700
+Served asset /categories.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-06-25 12:30:10 +0700
+Served asset /pictures.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.js?body=1" for 127.0.0.1 at 2013-06-25 12:30:10 +0700
+Served asset /images.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.js?body=1" for 127.0.0.1 at 2013-06-25 12:30:10 +0700
+Served asset /selects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-25 12:30:10 +0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/images/1" for 127.0.0.1 at 2013-06-25 12:30:30 +0700
+Processing by ImagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered images/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 64ms (Views: 62.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-25 12:30:30 +0700
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-06-25 12:30:30 +0700
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-06-25 12:30:30 +0700
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-06-25 12:30:30 +0700
+Served asset /pictures.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.css?body=1" for 127.0.0.1 at 2013-06-25 12:30:30 +0700
+Served asset /images.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-25 12:30:30 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-25 12:30:30 +0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-25 12:30:30 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/selects.css?body=1" for 127.0.0.1 at 2013-06-25 12:30:30 +0700
+Served asset /selects.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-06-25 12:30:30 +0700
+Served asset /pictures.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.js?body=1" for 127.0.0.1 at 2013-06-25 12:30:30 +0700
+Served asset /images.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.js?body=1" for 127.0.0.1 at 2013-06-25 12:30:30 +0700
+Served asset /selects.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-06-25 12:30:30 +0700
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-25 12:30:30 +0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:30:43 +0700
+Processing by ImagesController#index as HTML
+  [1m[36mImage Load (0.4ms)[0m  [1mSELECT "images".* FROM "images" [0m
+  Rendered images/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `image_url' for #<Image:0x007f64a0035a00>):
+    15:   <tr>
+    16:     <td><%= image.title %></td>
+    17:     <td><%= image.description %></td>
+    18:     <td><%= image.image_url %></td>
+    19:     <td><%= image.category_id %></td>
+    20:     <td><%= link_to 'Show', image %></td>
+    21:     <td><%= link_to 'Edit', edit_image_path(image) %></td>
+  app/views/images/index.html.erb:18:in `block in _app_views_images_index_html_erb___3356201450485372163_20368500'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb___3356201450485372163_20368500'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:30:46 +0700
+Processing by ImagesController#index as HTML
+  [1m[35mImage Load (0.4ms)[0m  SELECT "images".* FROM "images" 
+  Rendered images/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `image_url' for #<Image:0x007f64983567c8>):
+    15:   <tr>
+    16:     <td><%= image.title %></td>
+    17:     <td><%= image.description %></td>
+    18:     <td><%= image.image_url %></td>
+    19:     <td><%= image.category_id %></td>
+    20:     <td><%= link_to 'Show', image %></td>
+    21:     <td><%= link_to 'Edit', edit_image_path(image) %></td>
+  app/views/images/index.html.erb:18:in `block in _app_views_images_index_html_erb___3356201450485372163_20368500'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb___3356201450485372163_20368500'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.4ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:32:35 +0700
+Processing by ImagesController#index as HTML
+  [1m[36mImage Load (0.4ms)[0m  [1mSELECT "images".* FROM "images" [0m
+  Rendered images/index.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `data' for nil:NilClass):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @image.data.url(:thumb) %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb___3356201450485372163_70035012759620'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb___3356201450485372163_70035012759620'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.2ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:33:53 +0700
+Processing by ImagesController#index as HTML
+  [1m[35mImage Load (0.4ms)[0m  SELECT "images".* FROM "images" 
+  Rendered images/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `data' for nil:NilClass):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @image.data.url(:thumb) %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb___3356201450485372163_70035012759620'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb___3356201450485372163_70035012759620'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:34:12 +0700
+Processing by ImagesController#index as HTML
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" [0m
+  Rendered images/index.html.erb within layouts/application (32.9ms)
+Completed 500 Internal Server Error in 121ms
+
+ActionView::Template::Error (undefined method `data' for nil:NilClass):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @image.data.url(:thumb) %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb__3544427961839656921_23120960'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb__3544427961839656921_23120960'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.5ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:35:38 +0700
+Processing by ImagesController#index as HTML
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images" 
+  Rendered images/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `data' for nil:NilClass):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @image.data.url(:thumb) %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb__3544427961839656921_23120960'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb__3544427961839656921_23120960'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.5ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:35:39 +0700
+Processing by ImagesController#index as HTML
+  [1m[36mImage Load (1.8ms)[0m  [1mSELECT "images".* FROM "images" [0m
+  Rendered images/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `data' for nil:NilClass):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @image.data.url(:thumb) %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb__3544427961839656921_23120960'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb__3544427961839656921_23120960'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.7ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:35:39 +0700
+Processing by ImagesController#index as HTML
+  [1m[35mImage Load (0.3ms)[0m  SELECT "images".* FROM "images" 
+  Rendered images/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `data' for nil:NilClass):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @image.data.url(:thumb) %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb__3544427961839656921_23120960'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb__3544427961839656921_23120960'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.6ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:35:40 +0700
+Processing by ImagesController#index as HTML
+  [1m[36mImage Load (0.3ms)[0m  [1mSELECT "images".* FROM "images" [0m
+  Rendered images/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `data' for nil:NilClass):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @image.data.url(:thumb) %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb__3544427961839656921_23120960'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb__3544427961839656921_23120960'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.5ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:35:40 +0700
+Processing by ImagesController#index as HTML
+  [1m[35mImage Load (0.4ms)[0m  SELECT "images".* FROM "images" 
+  Rendered images/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `data' for nil:NilClass):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @image.data.url(:thumb) %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb__3544427961839656921_23120960'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb__3544427961839656921_23120960'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (48.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (61.1ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:35:40 +0700
+Processing by ImagesController#index as HTML
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT "images".* FROM "images" [0m
+  Rendered images/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `data' for nil:NilClass):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @image.data.url(:thumb) %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb__3544427961839656921_23120960'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb__3544427961839656921_23120960'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.5ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:36:03 +0700
+Processing by ImagesController#index as HTML
+  [1m[35mImage Load (0.4ms)[0m  SELECT "images".* FROM "images" 
+  Rendered images/index.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `data' for nil:NilClass):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @image.data.url(:thumb).inspect %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb__3544427961839656921_69880095386720'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb__3544427961839656921_69880095386720'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.8ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:36:43 +0700
+Processing by ImagesController#index as HTML
+  [1m[36mImage Load (0.3ms)[0m  [1mSELECT "images".* FROM "images" [0m
+  Rendered images/index.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `data' for #<Array:0x007f1c74441230>):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @images.data.url(:thumb) %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.0ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:36:44 +0700
+Processing by ImagesController#index as HTML
+  [1m[35mImage Load (0.3ms)[0m  SELECT "images".* FROM "images" 
+  Rendered images/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `data' for #<Array:0x007f1c749ab658>):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @images.data.url(:thumb) %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.8ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:36:45 +0700
+Processing by ImagesController#index as HTML
+  [1m[36mImage Load (0.3ms)[0m  [1mSELECT "images".* FROM "images" [0m
+  Rendered images/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `data' for #<Array:0x007f1c741fc600>):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @images.data.url(:thumb) %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.7ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:36:45 +0700
+Processing by ImagesController#index as HTML
+  [1m[35mImage Load (0.3ms)[0m  SELECT "images".* FROM "images" 
+  Rendered images/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `data' for #<Array:0x007f1c74c0b4e8>):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @images.data.url(:thumb) %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.8ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:36:46 +0700
+Processing by ImagesController#index as HTML
+  [1m[36mImage Load (0.3ms)[0m  [1mSELECT "images".* FROM "images" [0m
+  Rendered images/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `data' for #<Array:0x007f1c74d96998>):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @images.data.url(:thumb) %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.8ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:36:46 +0700
+Processing by ImagesController#index as HTML
+  [1m[35mImage Load (0.3ms)[0m  SELECT "images".* FROM "images" 
+  Rendered images/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `data' for #<Array:0x007f1c74d3cd08>):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @images.data.url(:thumb) %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.3ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:36:46 +0700
+Processing by ImagesController#index as HTML
+  [1m[36mImage Load (0.3ms)[0m  [1mSELECT "images".* FROM "images" [0m
+  Rendered images/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `data' for #<Array:0x007f1c74f844f8>):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @images.data.url(:thumb) %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.9ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:36:46 +0700
+Processing by ImagesController#index as HTML
+  [1m[35mImage Load (0.3ms)[0m  SELECT "images".* FROM "images" 
+  Rendered images/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `data' for #<Array:0x007f1c7412a308>):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @images.data.url(:thumb) %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.7ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:36:47 +0700
+Processing by ImagesController#index as HTML
+  [1m[36mImage Load (0.3ms)[0m  [1mSELECT "images".* FROM "images" [0m
+  Rendered images/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `data' for #<Array:0x007f1c743ff920>):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @images.data.url(:thumb) %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.7ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:36:47 +0700
+Processing by ImagesController#index as HTML
+  [1m[35mImage Load (0.3ms)[0m  SELECT "images".* FROM "images" 
+  Rendered images/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `data' for #<Array:0x007f1c74427678>):
+    13: 
+    14: <% @images.each do |image| %>
+    15:   <tr>
+    16:     <td><%= image_tag @images.data.url(:thumb) %></td>
+    17:     <td><%= image.title %></td>
+    18:     <td><%= image.description %></td>
+    19:     <td><%= image.category_id %></td>
+  app/views/images/index.html.erb:16:in `block in _app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/views/images/index.html.erb:14:in `each'
+  app/views/images/index.html.erb:14:in `_app_views_images_index_html_erb__3544427961839656921_69880093234640'
+  app/controllers/images_controller.rb:9:in `index'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.7ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:36:58 +0700
+Processing by ImagesController#index as HTML
+  [1m[36mImage Load (0.3ms)[0m  [1mSELECT "images".* FROM "images" [0m
+  Rendered images/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 94ms (Views: 92.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-25 12:36:58 +0700
+Served asset /application.css - 304 Not Modified (75ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-06-25 12:36:58 +0700
+Served asset /categories.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-06-25 12:36:58 +0700
+Served asset /custom.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-25 12:36:58 +0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-06-25 12:36:58 +0700
+Served asset /pictures.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/images.css?body=1" for 127.0.0.1 at 2013-06-25 12:36:58 +0700
+Served asset /images.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-25 12:36:58 +0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/selects.css?body=1" for 127.0.0.1 at 2013-06-25 12:36:58 +0700
+Served asset /selects.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-25 12:36:58 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/images.js?body=1" for 127.0.0.1 at 2013-06-25 12:36:58 +0700
+Served asset /images.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-06-25 12:36:58 +0700
+Served asset /pictures.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-06-25 12:36:58 +0700
+Served asset /categories.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/selects.js?body=1" for 127.0.0.1 at 2013-06-25 12:36:58 +0700
+Served asset /selects.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-25 12:36:58 +0700
+Served asset /application.js - 304 Not Modified (49ms)
+
+
+Started GET "/images/new" for 127.0.0.1 at 2013-06-25 12:37:04 +0700
+Processing by ImagesController#new as HTML
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" 
+  Rendered images/_form.html.erb (16.7ms)
+  Rendered images/new.html.erb within layouts/application (26.2ms)
+Completed 200 OK in 112ms (Views: 84.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:04 +0700
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:04 +0700
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:04 +0700
+Served asset /images.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:04 +0700
+Served asset /pictures.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:04 +0700
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:04 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:04 +0700
+Served asset /selects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:04 +0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:04 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:04 +0700
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:04 +0700
+Served asset /selects.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:04 +0700
+Served asset /pictures.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:04 +0700
+Served asset /images.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:04 +0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/images" for 127.0.0.1 at 2013-06-25 12:37:27 +0700
+Processing by ImagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Kx8R7LSvT3pMramV/Sf+kqst3ft8EhGX4rKSSYqiXCc=", "image"=>{"category_id"=>"2", "title"=>"image1", "description"=>"Description", "data"=>#<ActionDispatch::Http::UploadedFile:0x00000002147218 @original_filename="Sad_Kotik_by_zeldis.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image[data]\"; filename=\"Sad_Kotik_by_zeldis.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/tmp/RackMultipart20130625-21676-19ed7cg>>}, "commit"=>"Create Image"}
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/Sad_Kotik_by_zeldis20130625-21676-nhvevt.jpg[0]'
+Command :: identify -format %m '/tmp/Sad_Kotik_by_zeldis20130625-21676-nhvevt.jpg[0]'
+Command :: identify -format %m '/tmp/Sad_Kotik_by_zeldis20130625-21676-nhvevt.jpg[0]'
+Command :: identify -format %m '/tmp/Sad_Kotik_by_zeldis20130625-21676-nhvevt.jpg[0]'
+Command :: convert '/tmp/Sad_Kotik_by_zeldis20130625-21676-nhvevt.jpg[0]' -auto-orient -resize "300x300>" '/tmp/Sad_Kotik_by_zeldis20130625-21676-nhvevt20130625-21676-1ek8i6j'
+Command :: file -b --mime '/tmp/Sad_Kotik_by_zeldis20130625-21676-nhvevt20130625-21676-1ek8i6j'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/Sad_Kotik_by_zeldis20130625-21676-nhvevt.jpg[0]'
+Command :: identify -format %m '/tmp/Sad_Kotik_by_zeldis20130625-21676-nhvevt.jpg[0]'
+Command :: identify -format %m '/tmp/Sad_Kotik_by_zeldis20130625-21676-nhvevt.jpg[0]'
+Command :: identify -format %m '/tmp/Sad_Kotik_by_zeldis20130625-21676-nhvevt.jpg[0]'
+Command :: convert '/tmp/Sad_Kotik_by_zeldis20130625-21676-nhvevt.jpg[0]' -auto-orient -resize "100x100>" '/tmp/Sad_Kotik_by_zeldis20130625-21676-nhvevt20130625-21676-1vfqc8r'
+Command :: file -b --mime '/tmp/Sad_Kotik_by_zeldis20130625-21676-nhvevt20130625-21676-1vfqc8r'
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Binary data inserted for `string` type on column `data_content_type`
+  [1m[36mSQL (4.8ms)[0m  [1mINSERT INTO "images" ("category_id", "created_at", "data_content_type", "data_file_name", "data_file_size", "data_updated_at", "description", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["category_id", 2], ["created_at", Tue, 25 Jun 2013 05:37:27 UTC +00:00], ["data_content_type", "image/jpeg"], ["data_file_name", "Sad_Kotik_by_zeldis.jpg"], ["data_file_size", 216607], ["data_updated_at", Tue, 25 Jun 2013 05:37:27 UTC +00:00], ["description", "Description"], ["title", "image1"], ["updated_at", Tue, 25 Jun 2013 05:37:27 UTC +00:00]]
+[paperclip] Saving attachments.
+  [1m[35m (261.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/images/2
+Completed 302 Found in 564ms (ActiveRecord: 266.9ms)
+
+
+Started GET "/images/2" for 127.0.0.1 at 2013-06-25 12:37:27 +0700
+Processing by ImagesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mImage Load (0.4ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered images/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 43ms (Views: 38.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:27 +0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:27 +0700
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:27 +0700
+Served asset /pictures.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:27 +0700
+Served asset /images.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:27 +0700
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:27 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:27 +0700
+Served asset /selects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:27 +0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:28 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:28 +0700
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:28 +0700
+Served asset /images.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:28 +0700
+Served asset /selects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:28 +0700
+Served asset /pictures.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:28 +0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2013-06-25 12:37:33 +0700
+Processing by ImagesController#index as HTML
+  [1m[35mImage Load (0.3ms)[0m  SELECT "images".* FROM "images" 
+  Rendered images/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 67ms (Views: 64.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:33 +0700
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:33 +0700
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:33 +0700
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:33 +0700
+Served asset /images.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:33 +0700
+Served asset /pictures.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:33 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:33 +0700
+Served asset /selects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:33 +0700
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/images.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:33 +0700
+Served asset /images.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:33 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:33 +0700
+Served asset /pictures.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:33 +0700
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:33 +0700
+Served asset /selects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:33 +0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/images/1" for 127.0.0.1 at 2013-06-25 12:37:54 +0700
+Processing by ImagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered images/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 63ms (Views: 60.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:55 +0700
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:55 +0700
+Served asset /pictures.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:55 +0700
+Served asset /custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:55 +0700
+Served asset /images.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:55 +0700
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:55 +0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.css?body=1" for 127.0.0.1 at 2013-06-25 12:37:55 +0700
+Served asset /selects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:55 +0700
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:55 +0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:55 +0700
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/images.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:55 +0700
+Served asset /images.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:55 +0700
+Served asset /pictures.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/selects.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:55 +0700
+Served asset /selects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-25 12:37:55 +0700
+Served asset /application.js - 304 Not Modified (1ms)

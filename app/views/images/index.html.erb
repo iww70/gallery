@@ -2,9 +2,9 @@
 
 <table>
   <tr>
+    <th></th>
     <th>Title</th>
     <th>Description</th>
-    <th>Image url</th>
     <th>Category</th>
     <th></th>
     <th></th>
@@ -13,9 +13,9 @@
 
 <% @images.each do |image| %>
   <tr>
+    <td><%= image_tag image.data.url(:thumb) %></td>
     <td><%= image.title %></td>
     <td><%= image.description %></td>
-    <td><%= image.image_url %></td>
     <td><%= image.category_id %></td>
     <td><%= link_to 'Show', image %></td>
     <td><%= link_to 'Edit', edit_image_path(image) %></td>
