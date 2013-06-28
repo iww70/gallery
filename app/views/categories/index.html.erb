@@ -8,19 +8,17 @@
     <th></th>
     <th></th>
   </tr>
-
 <% @categories.each do |category| %>
   <tr>
     <td><%= category.title %></td>
     <td><%= category.body %></td>
     <td><%= link_to 'Show', category %></td>
-    <td><%= link_to 'Edit', edit_category_path(category) %></td>
-    <td><%= link_to 'Destroy', category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Edit', edit_category_path(category) if signed_in? %></td>
+    <td><%= link_to 'Destroy', category, method: :delete, data: { confirm: 'Are you sure?' } if signed_in? %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
-
-<%= link_to 'New Category', new_category_path %>
+<%= link_to 'New Category', new_category_path if signed_in? %>
 <%= link_to 'Image', images_path %>

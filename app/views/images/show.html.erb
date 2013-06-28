@@ -1,11 +1,11 @@
-<p id="notice"><%= notice %></p>
+<p id="notice"><%= notice %></p><!-- -->
 
 <p>
   <%= image_tag @image.data.url:medium %>
 </p>
 
 <p>
-  <b>Title: <%= @image.category_id.inspect%></b>
+  <b>Title:</b>
   <%= @image.title %>
 </p>
 
@@ -14,5 +14,5 @@
   <%= @image.description %>
 </p>
 
-<%= link_to 'Edit', edit_image_path(@image) %> |
+<%= link_to 'Edit', edit_image_path(@image) if signed_in?%> |
 <%= link_to 'Back', images_path %>

@@ -41,3 +41,10 @@ gem 'jquery-rails'
 #gem 'bootstrap-sass', '2.1'
 
 gem "paperclip", "~> 3.0"
+
+
+
+gem "bcrypt-ruby", :require => "bcrypt"
+
+
+gem "devise", ">= 2.2.3"

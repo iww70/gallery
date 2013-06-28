@@ -17,10 +17,6 @@ class ImagesController < ApplicationController
   def show
     @image = Image.find(params[:id])
 
-    p "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
-    p @image.inspect
-    p "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
-
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @image }
@@ -33,10 +29,6 @@ class ImagesController < ApplicationController
     @image = Image.new
     @category_array = Category.all
 
-    p "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
-    p @category_array.inspect
-    p "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
-
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @image}
@@ -47,11 +39,6 @@ class ImagesController < ApplicationController
   def edit
     @image = Image.find(params[:id])
     @category_array = Category.all
-
-    p "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
-    p @image.inspect
-    p "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
-
   end
 
   # POST /images

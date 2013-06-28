@@ -8,8 +8,8 @@
         <%= link_to("#{image.category.title}", lists_path(:category_id => image.category_id)) %>
       <% end %>
     </td>
-    <td><%= link_to 'Show', image %></td>
-    <td><%= link_to 'Edit', edit_image_path(image) %></td>
-    <td><%= link_to 'Destroy', image, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      <td><%= link_to 'Show', image %></td>
+      <td><%= link_to 'Edit', edit_image_path(image) if signed_in?%></td>
+      <td><%= link_to 'Destroy', image, method: :delete, data: { confirm: 'Удалить?' } if signed_in?%></td>
   </tr>
 <% end %>
