@@ -23,7 +23,7 @@
     <%= f.label :description %>
     <%= f.text_area :description %>
 
-    <%= image_tag @image.data.url(:thumb) if @image.data_present?%>
+    <%= image_tag @image.data.url(:thumb), class: "img-rounded" if @image.data_present?%>
     <%= f.label :image_url %>
     <%= f.file_field :data %>
 
