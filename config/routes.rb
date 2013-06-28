@@ -1,4 +1,5 @@
 Gallery::Application.routes.draw do
+
   devise_for :users
 
   devise_for :models
@@ -7,25 +8,17 @@ Gallery::Application.routes.draw do
 
   resources :lists
 
-
   resources :images
 
-
   resources :categories
-
-
-  #root :to => "gallery#index"
 
   get "log_out" => "sessions#destroy", :as => "log_out"
   get "log_in" => "sessions#new", :as => "log_in"
   get "sign_up" => "users#new", :as => "sign_up"
 
-
   root :to => "images#index"
 
-
   resources :users
-
 
   resources :sessions
 

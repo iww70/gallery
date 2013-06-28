@@ -5,7 +5,7 @@ class CreateImages < ActiveRecord::Migration
       t.text        :description
       t.integer     :category_id
       t.attachment  :data
-      
+
       t.timestamps
     end
   end

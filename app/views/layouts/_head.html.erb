@@ -1,0 +1,18 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container">
+      <%= link_to "галерея", '/', id: "logo" %>
+      <nav>
+        <ul class="nav pull-right">
+          <% if current_user %>
+            <li><%= link_to "Вы вошли #{current_user.email}", lists_path(:user_id => current_user.id)%></li>
+            <li><%= link_to "Выход", log_out_path %></li>
+          <% else %>
+            <li><%= link_to "Регистрация", sign_up_path %></li>
+            <li><%= link_to "Вход", log_in_path %></li>
+          <% end %>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

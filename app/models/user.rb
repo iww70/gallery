@@ -2,21 +2,33 @@ class User < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # :token_authenticatable, :confirmable,
   # :lockable, :timeoutable and :omniauthable
-  devise :database_authenticatable, :registerable,
-         :recoverable, :rememberable, :trackable, :validatable
+  devise  :database_authenticatable,
+          :registerable,
+          :recoverable,
+          :rememberable,
+          :trackable,
+          :validatable
 
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :email, :password, :password_confirmation, :remember_me
-
-  attr_accessible :email, :password, :password_confirmation
+  attr_accessible :name,
+                  :email,
+                  :password,
+                  :password_confirmation,
+                  :remember_me,
+                  :avatar
 
   attr_accessor :password
+
   before_save :encrypt_password
 
   validates_confirmation_of :password
-  validates_presence_of :password, :on => :create
-  validates_presence_of :email
-  validates_uniqueness_of :email
+  validates_presence_of     :password, :on => :create
+  validates_presence_of     :email
+  validates_uniqueness_of   :email
+
+  has_attached_file :avatar,
+                    :styles => {:avatar_thumb => "60x60>" },
+                    :default_url => "/images/:style/missing.png"
 
   def self.authenticate(email, password)
     user = find_by_email(email)

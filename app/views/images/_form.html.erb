@@ -12,28 +12,22 @@
     </div>
   <% end %>
 
-  <div class="field">
+<div class="row">
+  <div class="span6 offset2">
     <% categories_array = @category_array.collect { |category| [category.title, category.id] } %>
     <%= f.select(:category_id, options_for_select(categories_array, @image.category_id)) %>
-  </div>
 
-  <div class="field">
-    <%= f.label :title %><br />
+    <%= f.label :title %>
     <%= f.text_field :title %>
-  </div>
 
-  <div class="field">
-    <%= f.label :description %><br />
+    <%= f.label :description %>
     <%= f.text_area :description %>
-  </div>
 
-  <div class="field">
     <%= image_tag @image.data.url(:thumb) if @image.data_present?%>
-    <%= f.label :image_url %><br />
+    <%= f.label :image_url %>
     <%= f.file_field :data %>
-  </div>
 
-  <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Готово", class: "btn btn-large btn-primary" %>
   </div>
+</div>
 <% end %>

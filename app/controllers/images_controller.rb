@@ -5,6 +5,7 @@ class ImagesController < ApplicationController
   def index
     @images = Image.all
     @category_array = Category.all
+    @user = User.all
 
     respond_to do |format|
       format.html # index.html.erb
